@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace DataLoader
 {
+    /// <summary>
+    /// Представляет визуальный интерфейс к функционалу загрузки данных в БД
+    /// </summary>
     public partial class LoadForm : Form
     {
+        /// <summary>
+        /// Конструктор п умолчанию
+        /// </summary>
         public LoadForm()
         {
             InitializeComponent();

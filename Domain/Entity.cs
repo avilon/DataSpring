@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public interface IDataReader
+    public abstract class Entity : IDataReader
     {
-        void Read(string value);
+        public abstract void Read(string value);
     }
 }
